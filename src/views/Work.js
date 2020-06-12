@@ -6,7 +6,7 @@ export default class Work extends Component {
             <div className="container-fluid pr-5 pl-5 pt-2 h-100 text-center justify-content-center">
                 <div className="card">
                     <p className='header-text'>
-                        // Work
+                        Work
                     </p>
 
                 </div>

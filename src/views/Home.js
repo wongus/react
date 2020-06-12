@@ -9,7 +9,8 @@ export default class Home extends Component {
                     <p className='header-text'>
                         Welcome
                     </p>
-                    <p className="header-paragraph mr-5 ml-5 mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet consectetur lacus,
+                    <p className="header-paragraph mr-5 ml-5 mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Suspendisse sit amet consectetur lacus,
                         et feugiat ante. Sed sit amet quam eu erat aliquet efficitur vel at lacus. Mauris et libero vel
                         mauris faucibus rhoncus. Sed vulputate pellentesque turpis ac finibus. Aliquam vulputate tellus
                         a mattis malesuada. Cras lobortis placerat dui, accumsan varius urna dictum eget. Sed mattis
