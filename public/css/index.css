@@ -1,0 +1,68 @@
+body {
+    font-family: 'Open Sans';
+    background-color: #fdfffc;
+    color: #212529 !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d7d9d6' fill-opacity='0.03'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.03'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.navicon {
+    font-size: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow:  5px 5px 10px #d5d6d4,
+    -5px -5px 10px #ffffff;
+}
+
+.navicon-bg {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #fdfffc;
+}
+
+.active {
+    background: #fdfffc;
+    box-shadow: inset 6px 6px 12px #d5d6d4,
+    inset -6px -6px 12px #ffffff;
+}
+
+.navicon:hover {
+    color: #ff9f1c !important;
+}
+
+.navbar {
+    background: #fdfffc;
+    box-shadow:  5px 5px 10px #d5d6d4,
+    -5px -5px 10px #ffffff;
+    z-index: 2;
+}
+
+.nav-link, .navbar-brand {
+    color: #212529 !important;
+}
+
+.header-text {
+    color: #fdfffc;
+    font-size: 5rem;
+    text-shadow: 5px 5px 10px #d5d6d4,
+    -5px -5px 10px #ffffff;
+}
+
+.header-paragraph {
+    font-size: 1.5rem;
+    background-color: #d5d6d4;
+    color: transparent;
+    text-shadow: 2px 2px 3px #ffffff;
+    -webkit-background-clip: text;
+}
+
+.card {
+    font-weight: bold;
+    background-color: #fdfffc;
+    background: #fdfffc;
+}
