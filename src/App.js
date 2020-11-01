@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-import Nav from './components/Navbar.js';
+import Nav from './components/Navbar/Navbar.js';
 import Home from './views/Home';
 import Work from './views/Work';
 import Me from './views/Me';
