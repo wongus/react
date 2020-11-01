@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Button from '../components/Button/Button'
 
 export default class Me extends Component {
     render() {
@@ -8,6 +9,7 @@ export default class Me extends Component {
                     <p className='header-text'>
                         Me
                     </p>
+                    <Button/>
                 </div>
             </div>
         )
